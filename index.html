@@ -1,617 +1,1234 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!--- Basic Page Needs  -->
-    <meta charset="utf-8">
-    <title>Branda || Your Guide to Brandeis</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Mobile Specific Meta  -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/jquery-ui.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.min.css">
-    <link rel="stylesheet" href="assets/css/magnificpopup.css">
-    <link rel="stylesheet" href="assets/css/jquery.mb.YTPlayer.min.css">
-    <link rel="stylesheet" href="assets/css/typography.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="assets/img/icon/BrandaLogo18.png">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-    <style type="text/css">
-        @media (max-width: 766px) {
-        #home{
-                margin-top: 100px;
-        }
-        #Center{
-            margin-left: 0;
-        }
-        }
-        @media (min-width: 767px) {
-        #home{
-                margin-top: 0px;
-            }
-        #Center{
-            margin-left: 45%;
-        }
-        }
-        .ThanksText{
-            font-size: 21px;
-        }
-        .CenterText{
-            text-align: center;
-        }
-        .PrivatePolBut{
-
-         margin-left: 25%;
-         background-color: rgb(10, 40, 100);
-         color: white;
-         border: none;
-         border-radius: 15px;
-         font-family: 'Poppins', sans-serif;
-         font-size: 20px;
-         position: absolute;
-         padding: 6px;
-         width: 50vw;
-         height: auto;
-         box-shadow: none;
-         transition:all .2s ease;
-        }
-        .PrivatePolBut:hover{
-         background-color: rgb(20, 63, 147);
-         border-radius: 50px;
-         box-shadow: 0px 10px 10px rgba(0,0,0,.3);
-
-        }
-        .biggerFont{
-         font-size: 18px;
-        }
-        .header-area{
-            z-index: 9000;
-        }
-    </style>
-</head>
-
-<body>
-    <!-- preloader area start -->
-    <div id="preloader">
-        <div class="spinner"></div>
-    </div>
-    <!-- preloader area end -->
-    <!-- header area start -->
-    <header id="header">
-        <div class="header-area" style="background-color:rgb(10, 50, 100); padding-bottom: 15px; z-index: 120000;">
-            <div class="container" style="margin-top: 15px;">
-                <div class="row">
-                    <div class="menu-area">
-                        <div class="col-md-2 col-sm-12 col-xs-12">
-                            <div class="logo">
-                                <a href="index.html"><img style="width: 72px; height: 72px"; src='assets/img/icon/logo.png'></a>
-                            </div>
-                        </div>
-                        <div class="col-md-12 hidden-xs hidden-sm">
-                            <div class="main-menu">
-                                <nav class="nav-menu">
-                                    <ul>
-                                        <li><a href="#about">About</a></li>
-                                        <li><a href="#feature">Features</a></li>
-                                        <li><a href="#screenshot">Screenshots</a></li>
-                                        <li><a href="#clientsays">Testimonials</a></li>
-                                        <li><a href="#team">Team</a></li>
-                                        <li><a href="privacyPolicy.html">Privacy Policy</a></li>
-                                        <li><a href="TermsOfService.html">Terms of Service</a></li>
-                                        <li><a href="#contact">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-xs-12 visible-sm visible-xs">
-                            <div class="mobile_menu"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- header area end -->
-    <!-- slider area start -->
-    <section id="home" class="slider-area background-video" style="background-color:rgb(10, 50, 100);">
-        <!-- bacground video start-->
-        <div id="fullscreen-video">
-            <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Buc4db6b-SM',containment:'.background-video', showControls:true, autoPlay:true, loop:false, vol:0.5, mute:false, startAt:0,ratio:16/9, stopAt:150, opacity:1, addRaster:true, quality:'hd720', optimizeDisplay:true}"></a>
-        </div>
-        <!-- bacground video end-->
-        <div class="container">
-            <div class="col-md-6 col-sm-6 hidden-xs">
-                <div class="row">
-
-
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="row">
-                    <!--div class="slider-inner text-right">
-                        <h2>Branda:</h2>
-                        <h5>The App that the Judges Use</h5>
-                        <a class="expand-video" ><i class="fa fa-play"></i>Watch the video</a>
-                    </div-->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- slider area end -->
-    <!-- about area start   We may want to include this area of the website later, but for now it shall be commented out :D. -->
-    <div class="about-area ptb--100" id="about">
-        <div class="container">
-            <div class="section-title">
-                <h2>Branda</h2>
-                <p>What it is </p>
-            </div>
-            <div class="row d-flex flex-center">
-                <div class="col-md-6 col-sm-6 hidden-xs">
-                    <div class="about-left-img">
-                        <img src="assets/img/about/Iphone4AboutPg.png" alt="image">
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-sm-6 col-xs-12 d-flex flex-center">
-                    <div class="about-content">
-                        <p class="biggerFont">Branda is a mobile app that is a two-sided platform. It connects the students of Brandeis with essential campus services. These services include but are not limited to News, Shuttle Tracking, Laundry, Work Orders, Calendar, Hours, etc. Branda is developed and maintained by The Branda Team that consists of seven current undergraduate students.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- about area end -->
-    <!-- feature area start -->
-    <section class="feature-area bg-gray ptb--100" id="feature">
-        <div class="container">
-            <div class="section-title">
-                <h2>Features</h2>
-                <p>What Branda offers you</p>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ft-content rtl">
-                        <div class="ft-single">
-                            <img src="assets/img/icon/feature/1.png" alt="icon">
-                            <div class="meta-content">
-                                <h2>Brandeis News</h2>
-                                <p>Read Brandeis' most recent articles.</p>
-                            </div>
-                        </div>
-                        <div class="ft-single">
-                            <img src="assets/img/icon/feature/2.png" alt="icon">
-                            <div class="meta-content">
-                                <h2>Calendar</h2>
-                                <p>Discover major campus events.</p>
-                            </div>
-                        </div>
-                        <div class="ft-single">
-                            <img src="assets/img/icon/feature/3.png" alt="icon">
-                            <div class="meta-content">
-                                <h2>Hours</h2>
-                                <p>Quickly See What's Open.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 hidden-sm col-xs-12">
-                    <div class="ft-screen-img">
-                        <img src="assets/img/mobile/AppMenu.png" width="274px" height="540px" alt="image">
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="ft-content">
-                        <div class="ft-single">
-                            <img src="assets/img/icon/feature/4.png" alt="icon">
-                            <div class="meta-content">
-                                <h2>Shuttle Tracker</h2>
-                                <p>Reserve and track the Branvan.</p>
-                            </div>
-                        </div>
-                        <div class="ft-single">
-                            <img src="assets/img/icon/feature/5.png" alt="icon">
-                            <div class="meta-content">
-                                <h2>Laundry Tracker</h2>
-                                <p>Check whether washers and dryers are free in your building.</p>
-                            </div>
-                        </div>
-                        <div class="ft-single">
-                            <img src="assets/img/icon/feature/6.png" alt="icon">
-                            <div class="meta-content">
-                                <h2>Brandeis Map</h2>
-                                <p>Find buildings easily on campus.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- feature area end -->
-    <!-- achivement area start -->
-    <div class="achivement-area ptb--100">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="ach-single">
-                        <div class="icon"><i class="fa fa-book"></i></div>
-                        <span class="counter">8</span>
-                        <h5>Features</h5>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="ach-single">
-                        <div class="icon"><i class="fa fa-users"></i></div>
-                        <p><span class="counter">5000</span></p>
-                        <h5>Happy Students</h5>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="ach-single">
-                        <div class="icon"><i class="fa fa-trophy"></i></div>
-                        <span class="counter">13</span>
-                        <h5>Applications In One Place</h5>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-12">
-                    <div class="ach-single">
-                        <div class="icon"><i class="fa fa-binoculars"></i></div>
-                        <p><span class="counter">235</span></p>
-                        <h5>Acres of Campus Covered</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- achivement area end -->
-    <!-- screen slider area start -->
-    <section class="screen-area bg-gray ptb--100" id="screenshot">
-        <div class="container">
-            <div class="section-title">
-                <h2>Screenshots</h2>
-            </div>
-            <img class="screen-img" src="assets/img/mobile/screen-slider.png" alt="mobile screen">
-            <div class="screen-slider owl-carousel">
-                <div class="single-screen">
-                    <img src="assets/img/mobile/screen-slider/screen1.jpg" alt="mobile screen">
-                </div>
-                <div class="single-screen">
-                    <img src="assets/img/mobile/screen-slider/screen2.jpg" alt="mobile screen">
-                </div>
-                <div class="single-screen">
-                    <img src="assets/img/mobile/screen-slider/screen3.jpg" alt="mobile screen">
-                </div>
-                <div class="single-screen">
-                    <img src="assets/img/mobile/screen-slider/screen4.jpg" alt="mobile screen">
-                </div>
-                <div class="single-screen">
-                    <img src="assets/img/mobile/screen-slider/screen5.jpg" alt="mobile screen">
-                </div>
-                <div class="single-screen">
-                    <img src="assets/img/mobile/screen-slider/screen3.jpg" alt="mobile screen">
-                </div>
-                <div class="single-screen">
-                    <img src="assets/img/mobile/screen-slider/screen4.jpg" alt="mobile screen">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--
-    <section class="screen-area bg-gray ptb--100" id="screenshot">
-        <div class="container">
-            <div class="section-title">
-
-            </div>
-            <img class="screen-img" src="assets/img/mobile/screen-slider.png"alt="mobile screen" style="width: 533px; height: 570px;">
-            <div class="screen-slider owl-carousel">
-                <div class="single-screen">
-                    <img src="ImageIphone.png" alt="mobile screen" style="width: 226px;height: 401px;">
-                </div>
-                <div class="single-screen">
-                    <img src="Image%20from%20iOS%20Cropped.jpg" style="width: 226px;height: 401px;">
-                </div>
-                <div class="single-screen">
-                    <img src="iphonexscreenshot4BrandaNewsPage2.jpg" style="width: 226px;height: 401px;">
-                </div>
-                <div class="single-screen">
-                    <img src="iphonexscreenshot4BrandaHours1.jpg" style="width: 226px;height: 401px;">
-                </div>
-                <div class="single-screen">
-                    <img src="iphonexSreenshot4Branda3.jpg" style="width: 226px;height: 401px;">
-                </div>
-                <div class="single-screen">
-                    <img src="HoursFoodSS4Branda.jpg" alt="mobile screen" style="width: 226px;height: 401px;">
-                </div>
-                <div class="single-screen">
-                    <img src="screenshot4BrandaMap2.jpg" alt="mobile screen" style="width: 226px;height: 401px;">
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- screen slider area end -->
-    <!-- testimonial carousel area start         We will want to include this part of the website later. Before we can implement this though we shall have to ask people for quotes. Until then this section will be commented out :D. -->
-    <div class="testimonial-area bg-gray ptb--100" id="clientsays">
-        <div class="container">
-            <div class="section-title">
-                <h2>Testimonials</h2>
-                <p>What some of our users think:</p>
-            </div>
-            <div class="testimonial-slider owl-carousel">
-                <div class="single-tst">
-
-                    <img src="assets/img/author/MaxM1.png" alt="author">
-
-                    <h4>Max Meier</h4>
-                    <span>Undergraduate Student at Brandeis</span>
-                    <p>Branda is a great way of weaving together the various necessities of a Brandeis student. It allows students to have every aspect of the university's resources at their fingertips and circumvents all the annoying issues of having to use many different web pages to find Brandeis information. I wish I had this app since freshman year!<br><br></p>
-
-                </div>
-                <div class="single-tst">
-                    <img src="assets/img/author/SiwarM.png" alt="author">
-                    <h4>Siwar Mansour</h4>
-                    <span>Undergraduate Student at Brandeis</span>
-                    <p>Ever since I downloaded Branda, she became my best friend. I use the app for everything! It's so nice to have everything you need to know in one place, as opposed to having to go online every time and look on the website. The app has features which have made my experience living on campus more pleasant, whether it's a small thing like knowing which washing machines are open for use, or keeping up with what's happening on campus. </p>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!--testimonial carousel area end -->
-    <!-- team area start -->
-    <section class="team-area bg-gray ptb--100" id="team">
-        <div class="container">
-            <div class="section-title">
-                <h2>Our Team</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
-                    <div class="single-team">
-                        <div class="team-thumb">
-                            <img src="assets/img/team/BenS.png" alt="Benimage">
-                        </div>
-                        <h4>Benjamin Segal</h4>
-                        <span>CoFounder & App Developer</span>
-                        <ul class="tst-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
-                    <div class="single-team">
-                        <div class="team-thumb">
-                            <img src="assets/img/team/SamS.png" alt="Samimage">
-                        </div>
-                        <h4>Sam Stern</h4>
-                        <span>CoFounder & App Developer</span>
-                        <ul class="tst-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
-                    <div class="single-team">
-                        <div class="team-thumb">
-                            <img src="assets/img/team/ReeseF.jpg" alt="Reeseimage">
-                        </div>
-                        <h4>Reese Farquhar</h4>
-                        <span>Web Master and App Developer</span>
-                        <ul class="tst-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
-                    <div class="single-team">
-                        <div class="team-thumb">
-                            <img src="assets/img/team/IlanH.png" alt="Brandonimage">
-                        </div>
-                        <h4>Ilan Hascal</h4>
-                        <span>App Developer</span>
-                        <ul class="tst-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
-                    <div class="single-team">
-                        <div class="team-thumb">
-                            <img src="assets/img/team/EliM.jpg" alt="Brandonimage">
-                        </div>
-                        <h4>Eli Miller</h4>
-                        <span>App Developer</span>
-                        <ul class="tst-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
-                    <div class="single-team">
-                        <div class="team-thumb">
-                            <img src="assets/img/team/SarahB.png" alt="Brandonimage">
-                        </div>
-                        <h4>Sarah Baum</h4>
-                        <span>App Developer</span>
-                        <ul class="tst-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
-                    <div class="single-team">
-                        <div class="team-thumb">
-                            <img src="assets/img/team/IanS.png" alt="Brandonimage">
-                        </div>
-                        <h4>Ian Smith</h4>
-                        <span>App Developer</span>
-                        <ul class="tst-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
-                    <div class="single-team">
-                        <div class="team-thumb">
-                            <img src="assets/img/team/SarahK.png" alt="Brandonimage">
-                        </div>
-                        <h4>Sarah Kosowsky</h4>
-                        <span>App Developer</span>
-                        <ul class="tst-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
-                    <div class="single-team">
-                        <div class="team-thumb">
-                            <img src="assets/img/team/BrandonM.png" alt="Brandonimage">
-                        </div>
-                        <h4>Brandon Mutso</h4>
-                        <span>Business Coordinator</span>
-                        <ul class="tst-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
-                    <div class="single-team">
-                        <div class="team-thumb">
-                            <img src="assets/img/team/AseemK1.jpg" alt="Aseemimage">
-                        </div>
-                        <h4>Aseem Kumar</h4>
-                        <span>Business Coordinator</span>
-                        <ul class="tst-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
-                    <div class="single-team">
-                        <div class="team-thumb">
-                            <img src="assets/img/team/HannahL.jpg" alt="Aseemimage">
-                        </div>
-                        <h4>Hannah Liu</h4>
-                        <span>Business Coordinator</span>
-                        <ul class="tst-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
-                    <div class="single-team">
-                        <div class="team-thumb">
-                            <img src="assets/img/team/ArielO.png" alt="Aseemimage">
-                        </div>
-                        <h4>Ariel Ohayon</h4>
-                        <span>Business Coordinator</span>
-                        <ul class="tst-social">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- call-action area end -->
-
-    <!-- client area start -->
-    <br>
-    <div class="section-title">
-                <h2>A Special Thanks</h2>
-            </div>
-    <div class="clinet-area bg-gray ptb--100">
-        <div class="container">
-            <div class="client-carousel owl-carousel CenterText">
-                <p class="ThanksText">Brandeis University</p>
-                <p class="ThanksText">Brandeis Students</p>
-                <p class="ThanksText">Brandeis Faculty And Staff</p>
-                <p class="ThanksText">The Brandeis Student Union</p>
-                <p class="ThanksText">Brandeis Alumni</p>
-            </div>
-        </div>
-    </div>
-    <!-- client area end -->
-    <!-- contact area start -->
-    <section class="contact-area ptb--100" id="contact">
-        <div class="container">
-            <div class="section-title">
-                <h2>Contact Us</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="contact_info">
-                        <div class="s-info">
-                            <i class="fa fa-map-marker"></i>
-                            <div class="meta-content">
-                                <span>Vertica Lounge</span>
-                            </div>
-                        </div>
-                        <div class="s-info">
-                            <i class="fa fa-mobile"></i>
-                            <div class="meta-content">
-                                <span>(781)-736-2700</span>
-                            </div>
-                        </div>
-                        <div class="s-info">
-                            <i class="fa fa-paper-plane"></i>
-                            <div class="meta-content">
-                                <span>brandaapp@gmail.com</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- contact area end -->
-    <!-- footer area start -->
-    <footer>
-        <div class="footer-area" style="background-color:rgb(10, 40, 100);">
-            <div class="container">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved Branda Team | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-            </div>
-        </div>
-    </footer>
-    <!-- footer area end -->
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery-3.2.0.min.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.slicknav.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/magnific-popup.min.js"></script>
-    <script src="assets/js/counterup.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-</body>
-
-</html>
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+    <!--- Basic Page Needs  -->
+
+    <meta charset="utf-8">
+
+    <title>Branda || Your Guide to Brandeis</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Specific Meta  -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="assets/css/slicknav.min.css">
+
+    <link rel="stylesheet" href="assets/css/magnificpopup.css">
+
+    <link rel="stylesheet" href="assets/css/jquery.mb.YTPlayer.min.css">
+
+    <link rel="stylesheet" href="assets/css/typography.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- Favicon -->
+
+    <link rel="shortcut icon" type="image/png" href="assets/img/icon/BrandaLogo18.png">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!--[if lt IE 9]>
+
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+        <![endif]-->
+
+
+
+    <style type="text/css">
+
+        @media (max-width: 766px) {
+
+        #home{
+
+                margin-top: 100px;
+
+        }
+
+        #Center{
+
+            margin-left: 0;
+
+        }
+
+        }
+
+        @media (min-width: 767px) {
+
+        #home{
+
+                margin-top: 0px;
+
+            }
+
+        #Center{
+
+            margin-left: 45%;
+
+        }
+
+        }
+
+        .ThanksText{
+
+            font-size: 21px;
+
+        }
+
+        .CenterText{
+
+            text-align: center;
+
+        }
+
+        .PrivatePolBut{
+
+
+
+         margin-left: 25%;
+
+         background-color: rgb(10, 40, 100);
+
+         color: white;
+
+         border: none;
+
+         border-radius: 15px;
+
+         font-family: 'Poppins', sans-serif;
+
+         font-size: 20px;
+
+         position: absolute;
+
+         padding: 6px;
+
+         width: 50vw;
+
+         height: auto;
+
+         box-shadow: none;
+
+         transition:all .2s ease;
+
+        }
+
+        .PrivatePolBut:hover{
+
+         background-color: rgb(20, 63, 147);
+
+         border-radius: 50px;
+
+         box-shadow: 0px 10px 10px rgba(0,0,0,.3);
+
+
+
+        }
+
+        .biggerFont{
+
+         font-size: 18px;
+
+        }
+
+        .header-area{
+
+            z-index: 9000;
+
+        }
+
+    </style>
+
+</head>
+
+
+
+<body>
+
+    <!-- preloader area start -->
+
+    <div id="preloader">
+
+        <div class="spinner"></div>
+
+    </div>
+
+    <!-- preloader area end -->
+
+    <!-- header area start -->
+
+    <header id="header">
+
+        <div class="header-area" style="background-color:rgb(10, 50, 100); padding-bottom: 15px; z-index: 120000;">
+
+            <div class="container" style="margin-top: 15px;">
+
+                <div class="row">
+
+                    <div class="menu-area">
+
+                        <div class="col-md-2 col-sm-12 col-xs-12">
+
+                            <div class="logo">
+
+                                <a href="index.html"><img style="width: 72px; height: 72px"; src='assets/img/icon/logo.png'></a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-12 hidden-xs hidden-sm">
+
+                            <div class="main-menu">
+
+                                <nav class="nav-menu">
+
+                                    <ul>
+
+                                        <li><a href="#about">About</a></li>
+
+                                        <li><a href="#feature">Features</a></li>
+
+                                        <li><a href="#screenshot">Screenshots</a></li>
+
+                                        <li><a href="#clientsays">Testimonials</a></li>
+
+                                        <li><a href="#team">Team</a></li>
+
+                                        <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+
+                                        <li><a href="TermsOfService.html">Terms of Service</a></li>
+
+                                        <li><a href="#contact">Contact</a></li>
+
+                                    </ul>
+
+                                </nav>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-12 col-xs-12 visible-sm visible-xs">
+
+                            <div class="mobile_menu"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- header area end -->
+
+    <!-- slider area start -->
+
+    <section id="home" class="slider-area background-video" style="background-color:rgb(10, 50, 100);">
+
+        <!-- bacground video start-->
+
+        <div id="fullscreen-video">
+
+            <a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=Buc4db6b-SM',containment:'.background-video', showControls:true, autoPlay:true, loop:false, vol:0.5, mute:false, startAt:0,ratio:16/9, stopAt:150, opacity:1, addRaster:true, quality:'hd720', optimizeDisplay:true}"></a>
+
+        </div>
+
+        <!-- bacground video end-->
+
+        <div class="container">
+
+            <div class="col-md-6 col-sm-6 hidden-xs">
+
+                <div class="row">
+
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-xs-12">
+
+                <div class="row">
+
+                    <!--div class="slider-inner text-right">
+
+                        <h2>Branda:</h2>
+
+                        <h5>The App that the Judges Use</h5>
+
+                        <a class="expand-video" ><i class="fa fa-play"></i>Watch the video</a>
+
+                    </div-->
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- slider area end -->
+
+    <!-- about area start   We may want to include this area of the website later, but for now it shall be commented out :D. -->
+
+    <div class="about-area ptb--100" id="about">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Branda</h2>
+
+                <p>What it is </p>
+
+            </div>
+
+            <div class="row d-flex flex-center">
+
+                <div class="col-md-6 col-sm-6 hidden-xs">
+
+                    <div class="about-left-img">
+
+                        <img src="assets/img/about/Iphone4AboutPg.png" alt="image">
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-md-6 col-sm-6 col-xs-12 d-flex flex-center">
+
+                    <div class="about-content">
+
+                        <p class="biggerFont">Branda is a mobile app that is a two-sided platform. It connects the students of Brandeis with essential campus services. These services include but are not limited to News, Shuttle Tracking, Laundry, Work Orders, Calendar, Hours, etc. Branda is developed and maintained by The Branda Team that consists of seven current undergraduate students.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- about area end -->
+
+    <!-- feature area start -->
+
+    <section class="feature-area bg-gray ptb--100" id="feature">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Features</h2>
+
+                <p>What Branda offers you</p>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+
+                    <div class="ft-content rtl">
+
+                        <div class="ft-single">
+
+                            <img src="assets/img/icon/feature/1.png" alt="icon">
+
+                            <div class="meta-content">
+
+                                <h2>Brandeis News</h2>
+
+                                <p>Read Brandeis' most recent articles.</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="ft-single">
+
+                            <img src="assets/img/icon/feature/2.png" alt="icon">
+
+                            <div class="meta-content">
+
+                                <h2>Calendar</h2>
+
+                                <p>Discover major campus events.</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="ft-single">
+
+                            <img src="assets/img/icon/feature/3.png" alt="icon">
+
+                            <div class="meta-content">
+
+                                <h2>Hours</h2>
+
+                                <p>Quickly See What's Open.</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 hidden-sm col-xs-12">
+
+                    <div class="ft-screen-img">
+
+                        <img src="assets/img/mobile/AppMenu.png" width="274px" height="540px" alt="image">
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+
+                    <div class="ft-content">
+
+                        <div class="ft-single">
+
+                            <img src="assets/img/icon/feature/4.png" alt="icon">
+
+                            <div class="meta-content">
+
+                                <h2>Shuttle Tracker</h2>
+
+                                <p>Reserve and track the Branvan.</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="ft-single">
+
+                            <img src="assets/img/icon/feature/5.png" alt="icon">
+
+                            <div class="meta-content">
+
+                                <h2>Laundry Tracker</h2>
+
+                                <p>Check whether washers and dryers are free in your building.</p>
+
+                            </div>
+
+                        </div>
+
+                        <div class="ft-single">
+
+                            <img src="assets/img/icon/feature/6.png" alt="icon">
+
+                            <div class="meta-content">
+
+                                <h2>Brandeis Map</h2>
+
+                                <p>Find buildings easily on campus.</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- feature area end -->
+
+    <!-- achivement area start -->
+
+    <div class="achivement-area ptb--100">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-3 col-sm-3 col-xs-12">
+
+                    <div class="ach-single">
+
+                        <div class="icon"><i class="fa fa-book"></i></div>
+
+                        <span class="counter">8</span>
+
+                        <h5>Features</h5>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12">
+
+                    <div class="ach-single">
+
+                        <div class="icon"><i class="fa fa-users"></i></div>
+
+                        <p><span class="counter">5000</span></p>
+
+                        <h5>Happy Students</h5>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12">
+
+                    <div class="ach-single">
+
+                        <div class="icon"><i class="fa fa-trophy"></i></div>
+
+                        <span class="counter">13</span>
+
+                        <h5>Applications In One Place</h5>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-12">
+
+                    <div class="ach-single">
+
+                        <div class="icon"><i class="fa fa-binoculars"></i></div>
+
+                        <p><span class="counter">235</span></p>
+
+                        <h5>Acres of Campus Covered</h5>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- achivement area end -->
+
+    <!-- screen slider area start -->
+
+    <section class="screen-area bg-gray ptb--100" id="screenshot">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Screenshots</h2>
+
+            </div>
+
+            <img class="screen-img" src="assets/img/mobile/screen-slider.png" alt="mobile screen">
+
+            <div class="screen-slider owl-carousel">
+
+                <div class="single-screen">
+
+                    <img src="assets/img/mobile/screen-slider/screen1.jpg" alt="mobile screen">
+
+                </div>
+
+                <div class="single-screen">
+
+                    <img src="assets/img/mobile/screen-slider/screen2.jpg" alt="mobile screen">
+
+                </div>
+
+                <div class="single-screen">
+
+                    <img src="assets/img/mobile/screen-slider/screen3.jpg" alt="mobile screen">
+
+                </div>
+
+                <div class="single-screen">
+
+                    <img src="assets/img/mobile/screen-slider/screen4.jpg" alt="mobile screen">
+
+                </div>
+
+                <div class="single-screen">
+
+                    <img src="assets/img/mobile/screen-slider/screen5.jpg" alt="mobile screen">
+
+                </div>
+
+                <div class="single-screen">
+
+                    <img src="assets/img/mobile/screen-slider/screen3.jpg" alt="mobile screen">
+
+                </div>
+
+                <div class="single-screen">
+
+                    <img src="assets/img/mobile/screen-slider/screen4.jpg" alt="mobile screen">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--
+
+    <section class="screen-area bg-gray ptb--100" id="screenshot">
+
+        <div class="container">
+
+            <div class="section-title">
+
+
+
+            </div>
+
+            <img class="screen-img" src="assets/img/mobile/screen-slider.png"alt="mobile screen" style="width: 533px; height: 570px;">
+
+            <div class="screen-slider owl-carousel">
+
+                <div class="single-screen">
+
+                    <img src="ImageIphone.png" alt="mobile screen" style="width: 226px;height: 401px;">
+
+                </div>
+
+                <div class="single-screen">
+
+                    <img src="Image%20from%20iOS%20Cropped.jpg" style="width: 226px;height: 401px;">
+
+                </div>
+
+                <div class="single-screen">
+
+                    <img src="iphonexscreenshot4BrandaNewsPage2.jpg" style="width: 226px;height: 401px;">
+
+                </div>
+
+                <div class="single-screen">
+
+                    <img src="iphonexscreenshot4BrandaHours1.jpg" style="width: 226px;height: 401px;">
+
+                </div>
+
+                <div class="single-screen">
+
+                    <img src="iphonexSreenshot4Branda3.jpg" style="width: 226px;height: 401px;">
+
+                </div>
+
+                <div class="single-screen">
+
+                    <img src="HoursFoodSS4Branda.jpg" alt="mobile screen" style="width: 226px;height: 401px;">
+
+                </div>
+
+                <div class="single-screen">
+
+                    <img src="screenshot4BrandaMap2.jpg" alt="mobile screen" style="width: 226px;height: 401px;">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> -->
+
+    <!-- screen slider area end -->
+
+    <!-- testimonial carousel area start         We will want to include this part of the website later. Before we can implement this though we shall have to ask people for quotes. Until then this section will be commented out :D. -->
+
+    <div class="testimonial-area bg-gray ptb--100" id="clientsays">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Testimonials</h2>
+
+                <p>What some of our users think:</p>
+
+            </div>
+
+            <div class="testimonial-slider owl-carousel">
+
+                <div class="single-tst">
+
+
+
+                    <img src="assets/img/author/MaxM1.png" alt="author">
+
+
+
+                    <h4>Max Meier</h4>
+
+                    <span>Undergraduate Student at Brandeis</span>
+
+                    <p>Branda is a great way of weaving together the various necessities of a Brandeis student. It allows students to have every aspect of the university's resources at their fingertips and circumvents all the annoying issues of having to use many different web pages to find Brandeis information. I wish I had this app since freshman year!<br><br></p>
+
+
+
+                </div>
+
+                <div class="single-tst">
+
+                    <img src="assets/img/author/SiwarM.png" alt="author">
+
+                    <h4>Siwar Mansour</h4>
+
+                    <span>Undergraduate Student at Brandeis</span>
+
+                    <p>Ever since I downloaded Branda, she became my best friend. I use the app for everything! It's so nice to have everything you need to know in one place, as opposed to having to go online every time and look on the website. The app has features which have made my experience living on campus more pleasant, whether it's a small thing like knowing which washing machines are open for use, or keeping up with what's happening on campus. </p>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--testimonial carousel area end -->
+
+    <!-- team area start -->
+
+    <section class="team-area bg-gray ptb--100" id="team">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Our Team</h2>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+
+                    <div class="single-team">
+
+                        <div class="team-thumb">
+
+                            <img src="assets/img/team/BenS.png" alt="Benimage">
+
+                        </div>
+
+                        <h4>Benjamin Segal</h4>
+
+                        <span>CoFounder & App Developer</span>
+
+                        <ul class="tst-social">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+
+                    <div class="single-team">
+
+                        <div class="team-thumb">
+
+                            <img src="assets/img/team/SamS.png" alt="Samimage">
+
+                        </div>
+
+                        <h4>Sam Stern</h4>
+
+                        <span>CoFounder & App Developer</span>
+
+                        <ul class="tst-social">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+
+                    <div class="single-team">
+
+                        <div class="team-thumb">
+
+                            <img src="assets/img/team/ReeseF.jpg" alt="Reeseimage">
+
+                        </div>
+
+                        <h4>Reese Farquhar</h4>
+
+                        <span>Web Master and App Developer</span>
+
+                        <ul class="tst-social">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+
+                    <div class="single-team">
+
+                        <div class="team-thumb">
+
+                            <img src="assets/img/team/IlanH.png" alt="Brandonimage">
+
+                        </div>
+
+                        <h4>Ilan Hascal</h4>
+
+                        <span>App Developer</span>
+
+                        <ul class="tst-social">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+
+                    <div class="single-team">
+
+                        <div class="team-thumb">
+
+                            <img src="assets/img/team/EliM.jpg" alt="Brandonimage">
+
+                        </div>
+
+                        <h4>Eli Miller</h4>
+
+                        <span>App Developer</span>
+
+                        <ul class="tst-social">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+
+                    <div class="single-team">
+
+                        <div class="team-thumb">
+
+                            <img src="assets/img/team/SarahB.png" alt="Brandonimage">
+
+                        </div>
+
+                        <h4>Sarah Baum</h4>
+
+                        <span>App Developer</span>
+
+                        <ul class="tst-social">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+
+                    <div class="single-team">
+
+                        <div class="team-thumb">
+
+                            <img src="assets/img/team/IanS.png" alt="Brandonimage">
+
+                        </div>
+
+                        <h4>Ian Smith</h4>
+
+                        <span>App Developer</span>
+
+                        <ul class="tst-social">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+
+                    <div class="single-team">
+
+                        <div class="team-thumb">
+
+                            <img src="assets/img/team/SarahK.png" alt="Brandonimage">
+
+                        </div>
+
+                        <h4>Sarah Kosowsky</h4>
+
+                        <span>App Developer</span>
+
+                        <ul class="tst-social">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+
+                    <div class="single-team">
+
+                        <div class="team-thumb">
+
+                            <img src="assets/img/team/BrandonM.png" alt="Brandonimage">
+
+                        </div>
+
+                        <h4>Brandon Mutso</h4>
+
+                        <span>Business Coordinator</span>
+
+                        <ul class="tst-social">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+
+                    <div class="single-team">
+
+                        <div class="team-thumb">
+
+                            <img src="assets/img/team/AseemK1.jpg" alt="Aseemimage">
+
+                        </div>
+
+                        <h4>Aseem Kumar</h4>
+
+                        <span>Business Coordinator</span>
+
+                        <ul class="tst-social">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+
+                    <div class="single-team">
+
+                        <div class="team-thumb">
+
+                            <img src="assets/img/team/HannahL.png" alt="Aseemimage">
+
+                        </div>
+
+                        <h4>Hannah Liu</h4>
+
+                        <span>Business Coordinator</span>
+
+                        <ul class="tst-social">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3 col-sm-6 col-xs-12 col-6">
+
+                    <div class="single-team">
+
+                        <div class="team-thumb">
+
+                            <img src="assets/img/team/ArielO.png" alt="Aseemimage">
+
+                        </div>
+
+                        <h4>Ariel Ohayon</h4>
+
+                        <span>Business Coordinator</span>
+
+                        <ul class="tst-social">
+
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- call-action area end -->
+
+
+
+    <!-- client area start -->
+
+    <br>
+
+    <div class="section-title">
+
+                <h2>A Special Thanks</h2>
+
+            </div>
+
+    <div class="clinet-area bg-gray ptb--100">
+
+        <div class="container">
+
+            <div class="client-carousel owl-carousel CenterText">
+
+                <p class="ThanksText">Brandeis University</p>
+
+                <p class="ThanksText">Brandeis Students</p>
+
+                <p class="ThanksText">Brandeis Faculty And Staff</p>
+
+                <p class="ThanksText">The Brandeis Student Union</p>
+
+                <p class="ThanksText">Brandeis Alumni</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- client area end -->
+
+    <!-- contact area start -->
+
+    <section class="contact-area ptb--100" id="contact">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <h2>Contact Us</h2>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+
+                    <div class="contact_info">
+
+                        <div class="s-info">
+
+                            <i class="fa fa-map-marker"></i>
+
+                            <div class="meta-content">
+
+                                <span>Vertica Lounge</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="s-info">
+
+                            <i class="fa fa-mobile"></i>
+
+                            <div class="meta-content">
+
+                                <span>(781)-736-2700</span>
+
+                            </div>
+
+                        </div>
+
+                        <div class="s-info">
+
+                            <i class="fa fa-paper-plane"></i>
+
+                            <div class="meta-content">
+
+                                <span>brandaapp@gmail.com</span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- contact area end -->
+
+    <!-- footer area start -->
+
+    <footer>
+
+        <div class="footer-area" style="background-color:rgb(10, 40, 100);">
+
+            <div class="container">
+
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved Branda Team | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- footer area end -->
+
+
+
+    <!-- Scripts -->
+
+    <script src="assets/js/jquery-3.2.0.min.js"></script>
+
+    <script src="assets/js/jquery-ui.js"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/jquery.slicknav.min.js"></script>
+
+    <script src="assets/js/owl.carousel.min.js"></script>
+
+    <script src="assets/js/magnific-popup.min.js"></script>
+
+    <script src="assets/js/counterup.js"></script>
+
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+
+    <script src="assets/js/jquery.mb.YTPlayer.min.js"></script>
+
+    <script src="assets/js/theme.js"></script>
+
+</body>
+
+
+
+</html>
+
