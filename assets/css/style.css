@@ -512,7 +512,7 @@ END About Area
 }
 
 .ft-single {
-    margin-bottom: 46px;
+    min-height: 113px;
 }
 
 .ft-single img {
