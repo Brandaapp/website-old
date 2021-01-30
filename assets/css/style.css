@@ -935,7 +935,9 @@ END Pricing Area
     margin: 40px 0px;
 }
 .team-thumb img{
-    max-width: 160px;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
     border-radius: 50%;
 }
 .single-team h4{
