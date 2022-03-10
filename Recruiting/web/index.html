@@ -41,14 +41,14 @@
 <!-- header area start -->
 <header id="header">
     <div class="header-area" style="background-color:rgb(10, 40, 100); padding-bottom: 15px;" >
-        <div class="container" style="margin-top: 15px;">
+        <div class="container" style="margin-top: 15px; display: flex; justify-content: space-evenly; align-items: center;">
                 
-                    <div class="col-md-3 col-sm-12 col-xs-12">
+                    <div class="col-md-1 col-sm-12 col-xs-12">
                         <div class="logo">
                             <a href="../../index.html"><img style="width: 72px; height: 72px"; src='../../assets/img/icon/logo.png' border="2"></a>
                         </div>
                     </div>
-                    <div class="col-md-9 hidden-xs hidden-sm">
+                    <div class="col-md-4 hidden-xs hidden-sm">
                         <div class="main-menu">
                             <nav class="nav-menu">
                                 <ul>
@@ -57,11 +57,10 @@
                                 </ul>
                             </nav>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-xs-12 visible-sm visible-xs">
+                    </div> <!-- old class for this element: class="col-sm-4 col-xs-4 visible-sm visible-xs"-->
+                    <div>
                         <div class="mobile_menu"></div>
                     </div>
-               
         </div>
     </div>
 </header>
@@ -97,10 +96,9 @@
                 <div class="col-lg-12">
                     <div>
                         <h3> Join our orientaion meeting</h3>
-                        <div style="display: flex; justify-content: center; padding: 25px;">
-                            <a class="btn-solid-lg" href="#your-link"></i>Location: Mandel in room G03</a>
-                            <a class="btn-solid-lg" href="#your-link"></i>Date: Friday, March 18th</a>
-                            
+                        <div style="padding: 25px;">
+                        <a class="btn-solid-lg" style="text-overflow: wrap; height: auto;" href="#your-link"></i>Location: SCC in room 236</a>
+                        <a class="btn-solid-lg" href="#your-link"></i>Date: Friday, March 18th</a>
                         </div>
                         <p id="demo"></p>
                     </div> <!-- end of text-container -->
