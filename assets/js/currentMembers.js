@@ -1,7 +1,7 @@
 const currentMembers = [
   { name: 'Marco Qin', image: 'assets/img/team/MarcoQ.jpg', linkedin: 'https://www.linkedin.com/in/marco-qin-2024/', role: 'Team Leader, App Developer' },
   { name: 'Archer Heffern', image: 'assets/img/team/ArcherH.jpg', linkedin: 'https://www.linkedin.com/in/archerheffern/', role: 'Team Leader, App Developer' },
-  { name: 'Chelsea Choi', image: 'assets/img/team/ChelseaC.jpg', linkedin: 'https://www.linkedin.com/in/chelsea-choi-2024/', role: 'Team Leader, App Developer' },
+  { name: 'Chelsea Choi', image: 'assets/img/team/ChelseaC.png', linkedin: 'https://www.linkedin.com/in/chelsea-choi-2024/', role: 'Team Leader, App Developer' },
   { name: 'Keer Xu', image: 'assets/img/team/KeerX.jpg', linkedin: 'https://www.linkedin.com/in/keer-xu-128352250/', role: 'App Developer' },
   { name: 'Lecheng Zeng', image: 'assets/img/team/LechengZ.jpg', linkedin: 'https://www.linkedin.com/in/lecheng-zeng-b41398219/', role: 'App Developer' },
   { name: 'Ximeng Li', image: 'assets/img/team/XimengL.jpg', linkedin: 'https://www.linkedin.com/in/ximeng-li-4572b71b4/', role: 'App Developer' },
